@@ -1,0 +1,53 @@
+body {
+  color:black;
+  background-repeat:no-repeat;
+  background-image: url("http://euw.leagueoflegends.com/sites/default/files/upload/art/morgana_vs_ahri_4.jpg");
+}
+
+strong {
+  color: yellow;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+header {
+  display: flex!important;
+}
+
+header h1 {
+  color: red;
+  background-repeat: no-repeat;
+  background-image: url("http://www.gif-maniac.com/gifs/55/54505.gif");
+}
+
+article h2 {
+  color: orange;
+  text-align: center;
+}
+section, footer{
+  width: 90%;
+  margin:auto;
+}
+
+footer {
+  color:red;
+  text-align: center;
+}
+
+
+/* permet de rogner l'image*/
+
+.img-wrapper {
+  width: 75%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+}
+
+.premierp {
+  background-color:white;
+  border-radius: 10px;
+}
